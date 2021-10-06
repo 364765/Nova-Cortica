@@ -1,0 +1,242 @@
+        body {
+            padding: 2% 20%;
+        }
+        
+        main {
+            justify-content: start;
+            text-align: center;
+            margin-top: 10%;
+            width: 100%;
+            height: 200px;
+        }
+        /* HEADER navn og logo */
+        
+        h1 {
+            position: relative;
+            top: -150px;
+            font-size: 80px;
+            text-align: center;
+        }
+        
+        header,
+        nav {
+            text-align: center;
+            color: #685f2a;
+        }
+        
+        #nova {
+            font-size: 1.5em;
+            width: 200px;
+            height: auto;
+            position: relative;
+            left: -500px;
+            top: -10px;
+        }
+        /* Quote forsiden */
+        
+        #quote {
+            border: 3px solid #F58549;
+            background-color: #F2A65A;
+            font-size: 40px;
+            color: #772F1A;
+            text-align: center;
+            border-radius: 25px;
+            height: 80%;
+            width: 100%;
+            position: relative;
+            top: -150px;
+        }
+        
+        .boxes a {
+            /* Menyboksene */
+            position: relative;
+            top: -100px;
+            text-decoration: none;
+            background: #EEC170;
+            border-radius: 5px;
+            color: #772F1A;
+            font-size: 25px;
+            padding: 10px 10px;
+            box-shadow: 5px 5px 5px #585123;
+            letter-spacing: 2px;
+            margin-right: 10px;
+        }
+        /* Contact us nederst skjerm*/
+        
+        footer {
+            position: relative;
+            bottom: -75px;
+            display: inline-block;
+            margin-right: 0.5em;
+            text-align: center;
+            color: inherit;
+            border-color: red;
+            text-align: center;
+        }
+        
+        footer>ul {
+            display: inline-block;
+            margin-right: 0.5em;
+        }
+        
+        footer>ul>li {
+            display: inline-block;
+            margin-right: 0.5em;
+        }
+        
+        footer a {
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        footer>ul>li>a>img {
+            height: 32px;
+            width: 32px;
+            box-shadow: 2px 2px 2px #585123;
+        }
+        
+        footer a:hover {
+            color: teal;
+        }
+        /*our product*/
+        
+        h2 {
+            color: #772F1A;
+            text-align: center;
+            position: relative;
+            top: -200px;
+            font-size: 60px;
+        }
+        
+        .produktet>h3 {
+            font-size: 23px;
+            position: relative;
+            bottom: -15px;
+        }
+        
+        .produkter a {
+            position: relative;
+            top: -200px;
+            text-decoration: none;
+            background: lightgray;
+            border-radius: 5px;
+            color: black;
+            border-color: black;
+            font-size: 25px;
+            padding: 100px 20px;
+            letter-spacing: 2px;
+            margin-right: 15px;
+            width: 100%;
+        }
+        
+        .animasjon {
+            position: relative;
+            top: -329px;
+            text-decoration: none;
+            background: lightgray;
+            border-radius: 5px;
+            color: black;
+            border-color: black;
+            font-size: 25px;
+            padding: 190px 20px;
+            letter-spacing: 2px;
+            margin-right: 10px;
+            width: 25%;
+            right: -850px;
+        }
+        /*Work with us*/
+        
+        .workwithus>h2 {
+            color: #772F1A;
+            text-align: center;
+            position: relative;
+            top: -250px;
+            font-size: 60px;
+        }
+        
+        .workwithus>h3 {
+            font-size: 30px;
+            position: relative;
+            bottom: 240px;
+            right: 290px;
+        }
+        
+        .workwithus > p {
+            font-size: 20px;
+            position: relative;
+            top: -265px;
+            right: 295px;
+        }
+        
+        .workwithus a {
+            position: relative;
+            top: -70px;
+            text-decoration: none;
+            background: lightgray;
+            border-radius: 5px;
+            color: black;
+            border-color: black;
+            font-size: 25px;
+            padding: 1px 1px;
+            letter-spacing: 2px;
+            margin-right: 15px;
+            width: 100%;
+            box-shadow: 5px 5px 5px #585123;
+        }
+        /*Our mission*/
+        
+        .missionStatement {
+            position: static;
+            /* border: 3px solid black; 
+            border-radius: 20px; */
+            /*margin-top: 10px; */
+            height: 250px;
+        }
+        
+        .missionHeader {
+            color: #772F1A; font-size: 50px;
+            text-shadow: #FC0 10px 10px 40px;
+            /* border: 2px solid black;
+            border-radius: 20px; */
+            font-size: 50px;
+            text-shadow: #FC0 10px 10px 40px;
+        }
+        
+        .missionStatement .cell-left {
+            border: 6px solid white;
+            border-radius: 20px;
+            background-color: #EEC170;
+            margin: 5px;
+            padding: 8px;
+            font-size: x-large;
+        }
+        
+        .missionStatement .cell-right {
+            border: 6px solid white;
+            border-radius: 20px;
+            /*background-image: linear-gradient(to right, #EEC170, white); */
+            background-color: hsl(30, 59%, 72%);
+            margin: 5px;
+            padding: 8px;
+            font-size: large;
+        }
+        /* About Us */
+        
+        .aboutUsHeader {
+            color: #772F1A;
+            text-shadow: #FC0 20px 0 40px;
+            font-size: 50px;
+            /* text-shadow: 2px 2px black; 
+            border: 2px solid black;
+            border-radius: 20px; */
+        }
+        
+        .aboutUsTekst {
+            border: 2px solid #EEC170;
+            border-radius: 10px;
+            background-color: #EEC170;
+            box-shadow: 5px 5px 5px #585123;
+            padding: 10px;
+            font-size: 20px;
+            line-height: 20px;
+        }
