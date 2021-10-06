@@ -172,7 +172,7 @@
             position: relative;
             top: -70px;
             text-decoration: none;
-            background: lightgray;
+            background: hsl(30, 59%, 72%);
             border-radius: 5px;
             color: black;
             border-color: black;
@@ -186,7 +186,8 @@
         /*Our mission*/
         
         .missionStatement {
-            position: static;
+            position: relative;
+            bottom: 150px;
             /* border: 3px solid black; 
             border-radius: 20px; */
             /*margin-top: 10px; */
@@ -232,10 +233,11 @@
         }
         
         .aboutUsTekst {
+            position: relative;
+            bottom: 150px;
             border: 2px solid #EEC170;
             border-radius: 10px;
             background-color: #EEC170;
-            box-shadow: 5px 5px 5px #585123;
             padding: 10px;
             font-size: 20px;
             line-height: 20px;
