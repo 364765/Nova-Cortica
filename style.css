@@ -32,6 +32,24 @@
             left: -500px;
             top: -10px;
         }
+
+        #home{
+            font-size: 1.5em;
+            width: 30px;
+            height: auto;
+            position: relative;
+            left: -670px;
+            top: -5px;  
+        }
+
+        figcaption{
+            position: relative; 
+            left: -520px;
+            top: -29px;
+            font-size: 20px;
+            color: black;
+        }
+
         /* Quote forsiden */
         
         #quote {
@@ -150,7 +168,7 @@
             color: #772F1A;
             text-align: center;
             position: relative;
-            top: -250px;
+            bottom: 150px;
             font-size: 60px;
         }
         
@@ -196,11 +214,9 @@
         
         .missionHeader {
             color: #772F1A; font-size: 50px;
-            text-shadow: #FC0 10px 10px 40px;
             /* border: 2px solid black;
             border-radius: 20px; */
             font-size: 50px;
-            text-shadow: #FC0 10px 10px 40px;
         }
         
         .missionStatement .cell-left {
@@ -225,8 +241,9 @@
         
         .aboutUsHeader {
             color: #772F1A;
-            text-shadow: #FC0 20px 0 40px;
             font-size: 50px;
+            position: relative;
+            bottom: 150px;
             /* text-shadow: 2px 2px black; 
             border: 2px solid black;
             border-radius: 20px; */
@@ -242,3 +259,5 @@
             font-size: 20px;
             line-height: 20px;
         }
+
+        
