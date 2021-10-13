@@ -64,7 +64,7 @@
         #quote {
             border: 3px solid #F58549;
             background-color: #F2A65A;
-            font-size: 40px;
+            font-size: 3em;
             color: #772F1A;
             text-align: center;
             border-radius: 25px;
@@ -110,13 +110,11 @@
                 flex-basis: auto;   
                 
             }
+            #quote{
+                font-size: 2em;
+            }
         }
 
-        
-        /* Contact us nederst skjerm*/
-        @media only screen and (max-width: 800px){
-            
-        }
 
         footer {
             margin-right: 0.5em;
