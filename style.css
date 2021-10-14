@@ -34,28 +34,28 @@
             width: 200px;
             height: auto;
             position: absolute;
-            left: 1em;
+            left: 10em;
         }
 
         #home{
             font-size: 1.5em;
             width: 30px;
             height: auto;
-            position: relative;
-            left: -670px;
-            top: -5px;  
+            position: absolute;
+            left: 10em;
+            top: 9.6em;
         }
 
         figcaption{
-            position: relative; 
-            left: -520px;
-            top: -29px;
+            position: absolute; 
+            left: 14em;
+            top: 12em;
             font-size: 20px;
             color: black;
         }
 
         /* Quote forsiden */
-        
+    
         #quote {
             border: 3px solid #F58549;
             background-color: #F2A65A;
@@ -118,7 +118,6 @@
             bottom: 0rem;
             width: 100%;
             left: 50%;
-            
         }
         
         footer>ul {
