@@ -115,7 +115,7 @@
                 width: 130px;
                 height: auto;
                 position: absolute;
-                left: 4.3em;
+                left: 0em;
                 top: 2em;
             }
     
@@ -124,13 +124,13 @@
                 width: 30px;
                 height: auto;
                 position: absolute;
-                left: 5em;
+                left: 0.3em;
                 top: 6em;
             }
     
             figcaption{
                 position: absolute; 
-                left:   8em;
+                left: 2em;
                 top: 7.7em;
                 font-size: 20px;
                 color: black;
