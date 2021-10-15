@@ -215,9 +215,14 @@
             border-color: black;
             font-size: 25px;
             padding: 190px 20px;
-            margin-right: 10px;
-            width: 25%;
+            margin-right: 30px;
+            height: 5rem;
             right: -850px;
+        }
+
+        .animasjon #vinGIF{
+            height: 15rem;
+            position: relative;
         }
         /*Work with us*/
         
