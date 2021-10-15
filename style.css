@@ -177,23 +177,25 @@
             color: #772F1A;
             text-align: center;
             position: relative;
-            top: -200px;
+            top: -1.5em;
             font-size: 60px;
         }
         
         .produktet>h3 {
             font-size: 23px;
             position: relative;
-            bottom: -15px;
+            top: 7em;
         }
 
         .produktet > p {
+            position: relative;
             font-size: 15px;
+            top: 10em;
         }
         
         .produkter a {
             position: relative;
-            top: -200px;
+            top: -3em;
             text-decoration: none;
             background: lightgray;
             border-radius: 5px;
@@ -207,22 +209,23 @@
         
         .animasjon {
             position: relative;
-            top: -329px;
+            top: -8em;
             text-decoration: none;
             background: lightgray;
             border-radius: 5px;
             color: black;
             border-color: black;
             font-size: 25px;
-            padding: 190px 20px;
-            margin-right: 30px;
-            height: 5rem;
+            height: 11.5em;
             right: -850px;
+            width: 9em;
         }
 
         .animasjon #vinGIF{
-            height: 15rem;
+            height: 10em;
             position: relative;
+            right: -0.04em;
+            top: 0.67em;
         }
         /*Work with us*/
         
