@@ -319,7 +319,7 @@
         }
         
         .aboutUsTekst {
-            position: relative;
+            /*position: relative;*/
             bottom: 150px;
             border: 2px solid #EEC170;
             border-radius: 10px;
