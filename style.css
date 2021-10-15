@@ -34,7 +34,7 @@
             width: 200px;
             height: auto;
             position: absolute;
-            left: 10em;
+            left: 0em;
             top: -0em;
         }
 
@@ -43,13 +43,13 @@
             width: 30px;
             height: auto;
             position: absolute;
-            left: 11em;
+            left: 1em;
             top: 6em;
         }
 
         figcaption{
             position: absolute; 
-            left: 15em;
+            left: 3em;
             top: 7.7em;
             font-size: 20px;
             color: black;
@@ -266,17 +266,16 @@
                 gap: 1rem;  
             }
             .cell-right, .cell-left{
-                flex-basis: auto;   
-                font-size: 1em;
+                display: flex;
+                flex-basis: auto; 
+                font-size: large; 
+                line-height: 2rem;
             }
         }
         
         .missionStatement {
-            position: relative;
+            /*position: relative;*/
             bottom: 150px;
-            /* border: 3px solid black; 
-            border-radius: 20px; */
-            /*margin-top: 10px; */
             height: 250px;
         }
         
@@ -284,7 +283,7 @@
             color: #772F1A; font-size: 50px;
             /* border: 2px solid black;
             border-radius: 20px; */
-            font-size: 50px;
+            font-size: 50px; 
         }
         
         .missionStatement .cell-left {
@@ -294,6 +293,7 @@
             margin: 5px;
             padding: 8px;
             font-size: x-large;
+            line-height: 2rem;
         }
         
         .missionStatement .cell-right {
@@ -303,7 +303,8 @@
             background-color: hsl(30, 59%, 72%);
             margin: 5px;
             padding: 8px;
-            font-size: large;
+            font-size: large;            
+            line-height: 2rem;
         }
         /* About Us */
         
