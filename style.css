@@ -2,9 +2,9 @@
             padding: 2% 20%;
             font-family: sans-serif;
             letter-spacing: 0px;
-            
-
+            background-color: #645e3459;
         }
+        
         
         main {
             text-align: center;
@@ -187,58 +187,69 @@
             bottom: 5em;
         }
 
-        .produktet > p {
+        .produkter{
             position: relative;
-            font-size: 15px;
-            top: 10em;
+            bottom: 25em;
+            left: 6rem;
         }
         
-        .produkter td > a{
+        .bilderprodukt{
             text-decoration: none;
-            background: lightgray;
+            background: #77301aa8;
             color: black;
+            border-radius: 5px;
             border-color: black;
-            font-size: 16px;
+            font-size: 24px;
+            height: 11.5em;
+            width: 9em; 
+        }
 
-
+        .produkter td > img{
+            height: 10em;
+            width: auto;
         }
 
         .produkter td > p{
-            position: relative;
-            top: -2em;
+            
             text-decoration: none;
             background: lightgray;
             border-radius: 5px;
             color: black;
             background-color: #F2A65A;
             font-size: 25px;
-            padding: 10px 20px;
-            margin-right: 15px;
+            margin-right    : 15px;
             width: 50%;
-            font-size: 16px;
-            left: 13em;
+            height: 10em;
+            font-size: 20px;
+            text-align: left;
+            padding: 4% 4%;
+            line-height: 1.7rem;
         }
+
         
-        .animasjon {
+        .animasjon{
             position: relative;
-            top: -8.16em;
+            top: -2.5em;
             text-decoration: none;
-            background: lightgray;
+            background: #77301aa8;
             border-radius: 5px;
             color: black;
             border-color: black;
             font-size: 25px;
-            height: 11.5em;
-            left: 30em;
-            width: 9em;
+            height: 13.5em;
+            left: 28em;
+            width: 11em;
         }
 
         .animasjon #vinGIF{
-            height: 10em;
+            height: 12em;
+            width: auto;
             position: relative;
             right: -0.04em;
             top: 0.67em;
         }
+
+        
         /*Work with us*/
         @media only screen and (max-width: 1060px){
             main{
@@ -246,6 +257,7 @@
             }
             .workwithus{
                 text-align: center;
+                margin-bottom: 10%;
             }
             .work{
                 display: flex;
@@ -259,39 +271,27 @@
                 line-height: 2rem;
                 padding: 2% 20%;
                 text-align: center;
+                font-size: 20px;
             } 
-            
+            #personWorking{
+                height: 13rem;
+                float: right;
+                padding: 0.9rem;
+            } 
         }
-
-       /* @media only screen and (max-width: 850px){
-            .workwithus{
-                text-align: center;
-            }
-            .work{
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-            }
-            .work > a{
-                display: flex;
-                flex-basis: auto; 
-                font-size: large; 
-                line-height: 2rem;
-                padding: 2% 20%;
-            } 
-            
-        }*/
 
         .workwithus{
             position: relative;
+            margin-bottom: 10%;
         }
-        .workwithus>h2 {
+        .workwithus > h2 {
             color: #772F1A;
             text-align: center;
         }
         
         .workwithus>h3 {
             font-size: 30px;
+            text-align: left;
         }
         
         .workwithus > p {
@@ -299,8 +299,15 @@
             /*position: relative; */
             top: -265px;
             right: 295px;
+            font-size: larger;
+            line-height: 1.5rem;
+            text-align: left;
         }
-        
+
+        .workwithus > p:last-of-type {
+            margin-bottom: 2rem;
+        }
+
         .workwithus a {
             text-decoration: none;
             background: hsl(30, 59%, 72%);
@@ -309,11 +316,15 @@
             border-color: black;
             font-size: 25px;
             padding: 2% 2%;
-            letter-spacing: 0px;
             /* margin-right: 15px; */
             box-shadow: 5px 5px 5px #585123;
         }
-
+        #personWorking{
+            height: 13rem;
+            float: right;
+            padding: 0.9rem;
+        } 
+        
         /*Our mission*/
         @media only screen and (max-width: 800px){
             .tr{
@@ -343,7 +354,7 @@
         }
         
         .missionStatement .cell-left {
-            border: 6px solid white;
+            border: 6px solid #77301aa8;
             border-radius: 20px;
             background-color: #EEC170;
             margin: 5px;
@@ -353,7 +364,7 @@
         }
         
         .missionStatement .cell-right {
-            border: 6px solid white;
+            border: 6px solid #77301aa8;
             border-radius: 20px;
             /*background-image: linear-gradient(to right, #EEC170, white); */
             background-color: hsl(30, 59%, 72%);
