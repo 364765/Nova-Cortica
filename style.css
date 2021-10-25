@@ -44,7 +44,7 @@
             height: auto;
             position: absolute;
             left: 1em;
-            top: 6em;
+            top: 6.6em;
         }
 
         figcaption{
@@ -58,7 +58,7 @@
         /* Quote forsiden */
     
         #quote {
-            border: 3px solid #F58549;
+            border: 3px solid #F2A65A;
             background-color: #F2A65A;
             font-size: 3em;
             color: #772F1A;
@@ -283,6 +283,7 @@
         .workwithus{
             position: relative;
             margin-bottom: 10%;
+            bottom: 7em;
         }
         .workwithus > h2 {
             color: #772F1A;
@@ -318,6 +319,9 @@
             padding: 2% 2%;
             /* margin-right: 15px; */
             box-shadow: 5px 5px 5px #585123;
+            position:relative;
+            top: 2em;
+            margin-right: 1em;
         }
         #personWorking{
             height: 13rem;
@@ -341,20 +345,22 @@
         }
         
         .missionStatement {
-            /*position: relative;*/
+            position: relative;
             bottom: 150px;
             height: 250px;
+            top: -4em;
         }
         
         .missionHeader {
-            color: #772F1A; font-size: 50px;
+            color: #772F1A; 
+            font-size: 50px;
             /* border: 2px solid black;
             border-radius: 20px; */
             font-size: 50px; 
         }
         
         .missionStatement .cell-left {
-            border: 6px solid #77301aa8;
+            border: 6px solid #EEC170;
             border-radius: 20px;
             background-color: #EEC170;
             margin: 5px;
@@ -364,7 +370,7 @@
         }
         
         .missionStatement .cell-right {
-            border: 6px solid #77301aa8;
+            border: 6px solid hsl(30, 59%, 72%);
             border-radius: 20px;
             /*background-image: linear-gradient(to right, #EEC170, white); */
             background-color: hsl(30, 59%, 72%);
@@ -386,7 +392,8 @@
         }
         
         .aboutUsTekst {
-            /*position: relative;*/
+            position: relative;
+            top: -3em;
             bottom: 150px;
             border: 2px solid #EEC170;
             border-radius: 10px;
@@ -394,6 +401,192 @@
             padding: 10px;
             font-size: 20px;
             line-height: 20px;
+            
         }
 
+
+
+        * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+  bottom: 8em;
+}
+
+/* Hide the images by default */
+.mySlides {
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev{
+    left: 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position:relative;
+  bottom: 8em;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
         
+
+/*Menu hover dropdown*/
+
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    padding: 1rem;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: hsl(30, 59%, 72%);
+}
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+      background-color: hsla(30, 59%, 72%, 0.322);
+    }
+  
+  .dropdown:hover .dropbtn {
+      background-color: #EEC170;
+    }
+
+
+
+
+    /*Contact from - work with us*/
+    
+
+    
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=button] {
+        background-color: hsl(30, 59%, 72%);
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      
+      input[type=button]:hover {
+        background-color: hsl(30, 35%, 57%);
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #dbdbdb;
+        padding: 10px;
+        text-align: left;
+      }
