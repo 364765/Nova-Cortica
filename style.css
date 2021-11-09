@@ -379,6 +379,7 @@
         } 
         
         /*Our mission*/
+
         @media only screen and (max-width: 800px){
             .tr{
                 display: flex;
@@ -671,6 +672,8 @@
           margin-bottom: 1em;
           background-color: rgba(168, 194, 156, 0.349);
           text-align: left;
+          padding-left: 1em;
+          padding-right: 1em;
       }
       .workers > h3 {
           margin-top: 1rem;
