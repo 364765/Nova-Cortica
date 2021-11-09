@@ -272,7 +272,7 @@
 
         
         /*Work with us*/
-        @media only screen and (min-width: 1060px) and (max-width: 1200px){ 
+        @media only screen and (min-width: 1060px) and (max-width: 1210px){ 
             .work > .item{
                 font-size: 20px;
             }
