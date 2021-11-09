@@ -272,6 +272,13 @@
 
         
         /*Work with us*/
+        @media only screen and (min-width: 1060px) and (max-width: 1200px){ 
+            .work > .item{
+                font-size: 20px;
+            }
+        }
+
+
         @media only screen and (max-width: 1060px){
             main{
                 text-align: center;
