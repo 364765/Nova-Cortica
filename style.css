@@ -537,6 +537,7 @@
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  z-index: 1;
 }
 
 /* The dots/bullets/indicators */
